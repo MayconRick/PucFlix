@@ -4,20 +4,21 @@ export class Video {
 
         const video = document.createElement("video");
 
-        if (src != "") {
+        if (src !== "") {
 
           video.src = src;
         
         }
         
         cover.appendChild(video);
-        return video;    
+        return video;
         
     }
-    remove() {
+
+    remove = () => {
+
       this.remove()
-    }
 
-
+    };
         
 }
